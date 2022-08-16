@@ -14,6 +14,8 @@
 		5F729B64289CCEC800444C34 /* TwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F729B63289CCEC800444C34 /* TwitterTests.swift */; };
 		5F729B6E289CCEC800444C34 /* TwitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F729B6D289CCEC800444C34 /* TwitterUITests.swift */; };
 		5F729B70289CCEC800444C34 /* TwitterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F729B6F289CCEC800444C34 /* TwitterUITestsLaunchTests.swift */; };
+		5F729B7D289CCF0900444C34 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F729B7C289CCF0900444C34 /* FeedView.swift */; };
+		5F729B7F289CCF7C00444C34 /* TweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F729B7E289CCF7C00444C34 /* TweetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5F729B69289CCEC800444C34 /* TwitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F729B6D289CCEC800444C34 /* TwitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUITests.swift; sourceTree = "<group>"; };
 		5F729B6F289CCEC800444C34 /* TwitterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F729B7C289CCF0900444C34 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		5F729B7E289CCF7C00444C34 /* TweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				5F729B52289CCEC400444C34 /* TwitterApp.swift */,
 				5F729B54289CCEC400444C34 /* ContentView.swift */,
+				5F729B7C289CCF0900444C34 /* FeedView.swift */,
+				5F729B7E289CCF7C00444C34 /* TweetView.swift */,
 				5F729B56289CCEC700444C34 /* Assets.xcassets */,
 				5F729B58289CCEC700444C34 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F729B55289CCEC400444C34 /* ContentView.swift in Sources */,
+				5F729B7D289CCF0900444C34 /* FeedView.swift in Sources */,
+				5F729B7F289CCF7C00444C34 /* TweetView.swift in Sources */,
 				5F729B53289CCEC400444C34 /* TwitterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
