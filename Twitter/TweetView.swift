@@ -15,7 +15,7 @@ struct TweetView: View {
             VStack{
                 Circle()
                     .foregroundColor(Color(.systemBlue))
-                    .frame(width: 56, height: 56)
+                    .frame(width: 100, height: 100)
             }
         }
     }
